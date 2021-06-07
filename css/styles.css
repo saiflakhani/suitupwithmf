@@ -28,7 +28,7 @@ Colors:
 - Body text - dark gray #515867
 - Backgrounds - light gray #f9f9f9
 ******************************************/
-
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
 
 /**************************/
 /*     General Styles     */
@@ -61,10 +61,11 @@ h2 {
 }
 
 h3 {
-	color: #1e266d;
+	color: grey;
 	font-weight: 700;
 	font-size: 1.75rem;
 	line-height: 2.375rem;
+	font-family: 'Quicksand', sans-serif;
 	letter-spacing: -0.4px;
 }
 
@@ -485,8 +486,8 @@ input[type='checkbox'] {
 }
 
 .navbar .logo-image img {
-    width: 110px;
-	height: 32px;
+    width: 200px;
+	height: 100px;
 }
 
 .navbar .logo-text {
